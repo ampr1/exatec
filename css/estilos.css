@@ -1,5 +1,5 @@
 h1{
-	font-family: Arial, Helvetica, sans-serif;
+	/*font-family: Arial, Helvetica, sans-serif;*/
 	font-size: 30px;
 	color: #0033a0;
 	text-align: center;
@@ -9,7 +9,7 @@ h1{
 }
 
 p{
-	font-family: Arial, Helvetica, sans-serif;
+	/*font-family: Arial, Helvetica, sans-serif;*/
 	text-align: center;
 	font-size: 16px;
 	color: gray;
@@ -17,7 +17,7 @@ p{
 }
 
 h2{
-	font-family: Arial, Helvetica, sans-serif;
+	/*font-family: Arial, Helvetica, sans-serif;
 	color: #0033a0;
 	/*text-align: center;*/
 	font-size: 15px;
@@ -25,7 +25,7 @@ h2{
 }
 
 h3{
-	font-family: Arial, Helvetica, sans-serif;
+	/*font-family: Arial, Helvetica, sans-serif;
 	color: #0033a0;
 	/*text-align: center;*/
 	font-size: 18px;
@@ -34,7 +34,7 @@ h3{
 }
 
 h4{
-	font-family: Arial, Helvetica, sans-serif;
+	/*font-family: Arial, Helvetica, sans-serif;
 	color: #0033a0;
 	/*text-align: center;*/
 	font-size: 18px;
@@ -48,6 +48,7 @@ hr{
 
 }
 .home{
+	/*font-family: Raleway;*/
 	display: flex;
 	flex-direction: column;
 	margin:0;
@@ -78,7 +79,7 @@ hr{
 	flex-wrap: wrap;
 	width: 100%;
 	height: 80px;
-	font-family: Arial, Helvetica, sans-serif;
+	/*font-family: Arial, Helvetica, sans-serif;*/
 	display: flex;
 	font-weight: bold;
 	justify-content: space-evenly;
@@ -120,7 +121,7 @@ hr{
 }
 .navbar a{
 	color: #0033a0;
-	font-family: Arial, Helvetica, sans-serif;
+	/*font-family: Arial, Helvetica, sans-serif;*/
 	font-size: 13px;
 	float:left;
 	text-decoration: none;
@@ -318,6 +319,7 @@ hr{
 	border-radius: 8px;
 	font-size: 18px;
 	font-weight: bold;
+	line-height: 95%;
 }
 
 .miembro{
@@ -328,7 +330,7 @@ hr{
     height: 60px;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
+    /*text-decoration: none;*/
     display: inline-block;
     font-size: 16px;
 	box-shadow: 1px 3px #039164;
@@ -365,14 +367,80 @@ hr{
 .credencial_contenedor{
 	display: flex;
 	flex-direction: column;
-	width: 20%;
+	width: 30%;
+	justify-content: center;
+	flex-wrap: wrap;
+
 }
 
 .contenedortextocredencial{
 	width: 100%;
-	border: 1px white;
+	border: 0.5px solid lightblue;
 	color: white;
+	font-size: 13px;
+	border-radius: 4px;
+
 }
+
+.contenedorempresa{
+	width: 330px;
+	background-color: #04326d;
+	margin: 20px; 
+	height: 270px;
+	position:relative;
+}
+
+.layerempresa{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: rgba(255,255,255,0.2);
+}
+
+.barrabuscar{
+	width: 100%;
+	height: 40px;
+	background-color: #0a4187;
+	border: 1px solid black;
+	margin-bottom: 20px;
+}
+
+.imagenescomunidad{
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	height: 300px;
+	justify-content: center;
+}
+
+.contenedorImagenes{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: auto;
+	background-color: white;
+	justify-content: space-around;
+	/*padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;*/
+	padding: 40px 100px 40px 100px;
+	flex-wrap: wrap;
+}
+
+.imagenescomunidad h1{
+	font-size: 20px;
+}
+
+.imagenescomunidad a{
+	align-self: center;
+}
+
+
+
+
+
+
+
 
 
 
