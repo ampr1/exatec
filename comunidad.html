@@ -1,3 +1,9 @@
+<!--Marcos Alejandro Pérez Ramírez
+  160300154
+  Prácticas Profesionales
+  12/06/2018-->
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -54,7 +60,7 @@
         </li>
 
         <li class="nav-item">
-          <a href="www.instagram.com"><img class="icono" src="img/instagram.png"></a>
+          <a href="www.instagram.com"><img class="icono" src="img/instagram_azul.png"></a>
         </li>
       </ul>
     </nav>
@@ -80,38 +86,45 @@
   </div>
 
 
-  <div class="contenedor" style="background-image: url(img/comunidad/fondotarjetas.jpg); flex-wrap: wrap; justify-content: center; padding-top:20px; padding-bottom: 20px">
-    <div class="layerempresa">
+  
+<div style="background-image: url(img/comunidad/fondotarjetas.jpg); position: relative; height: auto; width: 100%; display: inline-block; overflow: auto; height: 500px">
+  <div class="layerempresa">
 
-    </div>
-    <div class="credencial_contenedor" style="width: 500px; justify-content: space-around; flex-wrap: wrap">
+  </div>
+  <!--
+  <div class="contenedor" style="background-image: url(img/comunidad/fondotarjetas.jpg); flex-wrap: wrap; justify-content: center; padding-top:20px; padding-bottom: 20px; position: relative;">-->
+
+  <div class="contenedor" style="flex-wrap: wrap; justify-content: center; padding-top:20px; padding-bottom: 20px;  position: absolute; margin-top: 40px">
+    
+    <div class="credencial_contenedor" style="width: 500px; justify-content: space-around; flex-wrap: wrap; ">
       <p style="color: #0033a0; font-weight: normal; font-size: 18px; text-align: left;">Empresas EXATEC</p>
       <p style="color: #0033a0; text-align: left;">
-        Conoce las pequeñas y medianas empresas de tus colegas EXATEC, que ofrecen productos y servivios en distintas áreas.
+        Conoce las pequeñas y medianas empresas de tus colegas EXATEC, que ofrecen productos y servicios en distintas áreas.
       </p>
       
       <p style="color: #0033a0; text-align: left; font-weight: bold; font-size: 15px">
         &#9679 Para dar de alta o modificar una Pyme, es necesario ser EXATEC e ingresar con tu usuario y contraseña.
       </p>
 
-      <form action="index.html">
+      <form action="index.html" style="display: flex; flex-direction: column;">
         <center>
-          <div style="border: 1px solid grey; padding: 20px; color:#0033a0; text-align: left;padding-left: 50px">
+          <div style="border: 1px solid grey; padding: 20px; color:#0033a0; text-align: left;padding-left: 50px; font-weight: bold;">
             Usuario:    
-            <input type="text" name="firstname" value="" style="margin-left:50px; border: 0px; border-radius:5px">
+            <input type="text" name="firstname" style="margin-left:50px; border: 0px; border-radius:5px; width: 70%; height: 20px">
             <br><br>
             Contraseña:
-            <input type="text" name="lastname" value="" style="margin-left:23px;border: 0px; border-radius:5px">
+            <input type="text" name="lastname" style="margin-left:23px;border: 0px; border-radius:5px; width: 70%;height: 20px">
 
           </div>
-          <input class="miembro" type="submit" value="¡SOY MIEMBRO!" style="margin-top: 10px; width: 220px; border-radius: 2px;">
-        </center>
+          </center>
+          <input class="miembro" type="submit" value="¡SOY MIEMBRO!" style="margin-top: 10px; width: 220px; border-radius: 8px; align-self: flex-end;">
+        
       </form> 
 
     </div>
 
     <!--<div class="credencial_contenedor" style="width: 20%; flex-wrap: wrap; background-color: #04326d; margin:20px;">-->
-      <div class="contenedorempresa">
+      <div class="contenedorempresa" style="">
         <div class="barrabuscar" style="color: white">
           <center>
             <div style="line-height: 35px">
@@ -124,8 +137,9 @@
         <form action="algo.html">
           <center>
             <div class="form-group">
+
               <label for="sel1" style="float: left; margin-right: 20px; margin-left: 20px; color: white">Giro:</label>
-              <select class="form-control" id="sel1" style="width: 60%; height: 20px">
+              <select class="form-control" id="sel1" style="width: 60%; height: 30px; font-size: 13px">
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
@@ -134,7 +148,7 @@
               <br>
 
               <label for="sel2" style="float: left; margin-right: 0px; margin-left: 20px; color: white">Estado:</label>
-              <select class="form-control" id="sel2" style="width: 60%; height: 20px">
+              <select class="form-control" id="sel2" style="width: 60%; height: 30px; font-size: 13px">
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
@@ -143,20 +157,21 @@
 
               <br>
               <label for="sel3" style="float: left; margin-right: 23px; margin-left: 20px; color: white">País:</label>
-              <select class="form-control" id="sel3" style="width: 60%; height: 20px">
+              <select class="form-control" id="sel3" style="width: 60%; height: 30px; font-size: 13px">
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
                 <option>4</option>
               </select>
-              <br>
+              
             </div>
-            <input class="miembro" type="submit" value="INICIAR BÚSQUEDA" style="background-color: #d96e05; box-shadow: 1px 3px #8e4802; align-self: center; height: auto; padding: 8px 32px;   ">
+            <input class="miembro" type="submit" value="INICIAR BÚSQUEDA" style="background-color: #d96e05; box-shadow: 1px 3px #8e4802; align-self: center; height: auto; padding: 8px 32px; margin-top: 0px   ">
 
           </center>
         </form>
       </div>
     </div>
+  </div>
 
     <div class="contenedorImagenes">
       <div class="imagenescomunidad">
